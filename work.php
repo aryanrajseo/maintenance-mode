@@ -43,6 +43,3 @@ function maintenance_mode()
         wp_die('<h1>' . __('Maintenance', 'maintenance-mode') . '</h1><p>' . __('Please check back soon.', 'maintenance-mode') . '</p>', __('Maintenance', 'maintenance-mode'), array('response' => '503'));
     }
 }
-
-
-
