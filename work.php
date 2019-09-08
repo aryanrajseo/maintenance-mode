@@ -39,7 +39,7 @@ add_action('get_header', 'maintenance_mode');
  */
 function maintenance_mode()
 {
-    if(!current_user_can('edit_themes') || !is_user_logged_in() ) { //https://wordpress.org/support/article/roles-and-capabilities/
+    if(!current_user_can('edit_themes') || !is_user_logged_in() ) { // https://wordpress.org/support/article/roles-and-capabilities/
         wp_die('<h1>' . __('Maintenance', 'maintenance-mode') . '</h1><p>' . __('Please check back soon.', 'maintenance-mode') . '</p>', __('Maintenance', 'maintenance-mode'), array('response' => '503'));
     }
 }
