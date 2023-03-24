@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Maintenance Mode
- * Plugin URI:  https://github.com/rockingaryan/maintenance-mode
+ * Plugin URI:  https://github.com/aryanrajseo/maintenance-mode
  * Description: A simple & lightweight maintenance mode plugin.
  * Author:      Aryan Raj
  * Author URI:  https://www.aryanraj.com/
